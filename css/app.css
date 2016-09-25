@@ -227,7 +227,10 @@ img {
 .about-img {
 	margin-bottom: 1rem;
 }
-.thumbnail {
+.pubs-page .thumbnail {
+	margin: 1rem;
+}
+.presentations-page .thumbnail{
 	margin: 1rem;
 }
 .writing-page .thumbnail {
