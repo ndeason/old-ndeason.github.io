@@ -2,15 +2,19 @@
 
 /*--- GLOBAL ---*/
 *, h1, h2, h3, h4, h5, h6, p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	letter-spacing: .8px;
 }
 body {
-	background: #f7f7f7;
+	background: #eee;
 }
 hr {
 	margin-top: 5rem;
 	margin-bottom: 2rem;
+}
+.fa-lg{
+border-radius: 10px;
+background: black;
 }
 
 .relative {
@@ -29,7 +33,6 @@ hr {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	width: 100%;
-	
 }
 .title-bar {
 	padding-left: 1rem;
@@ -68,9 +71,19 @@ button.menu-icon:after {
 #first {
 	margin-bottom: 2rem;
 }
-#first p{
-	color:#4A90E2;
-}	
+#first .thumbnail-wrapper {
+	position: relative;
+	max-width: 150px;
+	margin: 0 auto;
+}
+#first .detail {
+	background: transparent;
+	padding: 5rem 1rem 1rem 1rem;
+	text-align: center;
+	max-width: 300px;
+	margin: -6rem auto 0;
+}
+
 #second {
 	background: url(../img/escheresque_ste.png);
 	/* --- image from subtlepatters.com --- */
@@ -85,14 +98,40 @@ button.menu-icon:after {
 	width: 40%;
 }
 .about-text {
-	border-left: 2px solid #C57930;
+	border-left: 2px solid #badd69;
 	color: #f7f7f7;
 }
 .title {
-	background: #C57930;
+	background: #badd69;
 	color: #222;
 	padding-left: .9rem;
 	margin-left: -1rem;
+}
+.port-title {
+font-family: 'Dosis', sans-serif;
+font-size: 40px;
+color: black;
+}
+
+.dropdown {
+	visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+a:hover + .dropdown {
+	visibility: visible;
+  opacity: 1;
+}
+.index-page .thumbnail:hover {
+	opacity: .5;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	color: white;
+}
+.thumbnail-wrapper:hover + .detail p {
+	 visibility: visible;
+  opacity: 1;
 }
 .portfolio-body h2 {
 	font-weight: 700;
@@ -115,12 +154,65 @@ padding-top: 1rem
 	margin: 1rem;
 }
 .project h1 {
-	font-family: 'Hind Vadodora', serif;
+	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 	margin-bottom: 1.5rem;
 }
-.project .button{
+.project .button {
 	margin: .5rem 0;
+}
+.portfolio-body {
+	margin-right: 1rem;
+}
+.portfolio-body.writing {
+	margin-left: .3rem;
+	margin-right: .2rem;
+}
+.card {
+	/*box-shadow: 2px 2px 1px gray;*/ 
+	padding: .5rem;
+	margin: 1rem;
+	background: white;
+}
+.card-title h4 {
+	color: black;
+	text-align: center;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+	margin: 0rem 1rem 1rem 1rem;
+
+}
+.card h5 {
+	font-weight: bold;
+	margin-top: 0.5rem;
+}
+.read-more {
+	text-align: center;
+	margin: 0rem .5rem;
+}
+.row.read-more {
+	margin: 0rem 0.5rem;
+	border: 1px solid black;
+	/*background: #badd69;*/
+	color: black;
+	font-size: 20px;
+}
+.row.read-more:hover {
+	background: #8ea950;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	color: white;
+}
+.read-more h4 {
+	color:black;
+	font-weight: bold;
+}
+.IP {
+	font-family: Crimson Text;
+	font-weight: bolder;
+	font-size: 25px;
+	margin-left: .3rem; 
 }
 
 /* --- IMAGES --- */
@@ -129,8 +221,7 @@ img {
 	position: relative;
 }
 .portfolio-img {
-	border-radius: 50%;
-	margin: 2rem auto;
+	margin: 0rem 2rem auto;
 	width: 75%;
 }
 .about-img {
@@ -139,13 +230,53 @@ img {
 .thumbnail {
 	margin: 1rem 0;
 }
-.portfolio-body .thumbnail:hover {
+.writing-page .thumbnail {
+	background: white
+}
+.presentations-page .thumbnail-overlay {
+	padding: .5em;
+	display: none;
+	margin: 1rem 15px 1rem 0;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,.7);
+}
+.pubs-page .thumbnail-overlay {
+	padding: .5em;
+	display: none;
+	margin: 1rem 15px 1rem 0;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,.7);
+}
+/*.portfolio-body .thumbnail:hover {
+	opacity: .3;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+}*/
+.presentations-page .portfolio-body .thumbnail:hover {
 	opacity: .3;
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
 }
-
+.presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
+ {
+	display: block;
+}
+.pubs-page .portfolio-body .thumbnail:hover {
+	opacity: .3;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+}
+.pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
+ {
+	display: block;
+}
 
 .project img {
 	margin: 1rem 0;
@@ -169,13 +300,18 @@ p a:hover {
 	-moz-transition: ease .3s;
 	transition: ease .3s;
 }
-
+.label-content{
+	margin: .5rem;
+}
 .portfolio-label {
-	border-bottom: 3px solid #4A90E2;
+	text-align: center;
+	font-size: 40px;
+    font-weight: bolder;
+	/*border-bottom: 3px solid #4A90E2;
 	font-size: 2vw;
 	font-weight: 700;
 	letter-spacing: 1.2px;
-	padding: 5px;
+	
 	position: absolute;
 	text-align: center;	
 	text-transform:uppercase;
@@ -186,9 +322,17 @@ p a:hover {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);*/
 }
-
+.writing-label{
+	color: #8ea950;
+}
+.prez-label{
+	color: #ff292e;
+}
+.pubs-label{
+	color: #4180ff;
+}
 .portfolio:hover .portfolio-label {
 	color: #f7f7f7;
 	-webkit-transition: ease .3s;
@@ -236,6 +380,10 @@ p a:hover {
 .fa.mobile.other {
 	color: #f7f7f7;
 	background: #222;
+}
+.fa.mobile.workaround{
+font-family:helvetica; 
+font-size: 29px;
 }
 .fa.mobile:hover {
 	background: #4A90E2;
@@ -319,18 +467,18 @@ input[type=checkbox]:checked ~ [for^="read_more"] span:last-of-type {
 	.portfolio-img {
 		width: 75%;
 	}
-	.portfolio-label {
+	/*.portfolio-label {
 		font-size: 2vw !important;
-	}
+	}*/
 }
 @media (max-width:640px) {
 	.portfolio-img {
 		margin: 1rem auto;
 		width: 50%;
 	}
-	.portfolio-label {
+	/*.portfolio-label {
 		font-size: 4.5vw !important;
-	}
+	}*/
 }
 @media (min-width:1024px) {
 	#first, #second {
