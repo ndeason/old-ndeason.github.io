@@ -198,7 +198,7 @@ a:hover + .dropdown {
 	font-size: 20px;
 }
 .row.read-more:hover {
-	background: #8ea950;
+	background: #badd69;
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
@@ -500,6 +500,6 @@ input[type=checkbox]:checked ~ [for^="read_more"] span:last-of-type {
 		position: fixed;
 	}
 	.portfolio-body {
-	margin: 1rem 0 2rem 0;
+	margin: 1rem 2rem 2rem 0;
 }
 }
