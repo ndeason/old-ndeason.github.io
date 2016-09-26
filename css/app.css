@@ -73,7 +73,7 @@ button.menu-icon:after {
 #first .thumbnail-wrapper {
 	position: relative;
 	max-width: 150px;
-	margin: 0 auto;
+	margin: 1rem auto;
 }
 #first .detail {
 	background: transparent;
