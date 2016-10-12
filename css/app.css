@@ -424,6 +424,8 @@ p a:hover {
 	.portfolio-body {
 	margin: 1rem 2rem 2rem 0;
 }
+}
+@media (min-width: 769px) {
 .presentations-page .portfolio-body .thumbnail:hover {
 	opacity: .3;
 	-webkit-transition: ease .3s;
