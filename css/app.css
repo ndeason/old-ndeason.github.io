@@ -44,13 +44,6 @@ background: black;
 .my-top-menu li a {
 	color: #4A90E2;
 }
-.my-top-menu li a:hover {
-	background: #4A90E2;
-	color: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
 
 button.menu-icon:after {
 	background: #222;
@@ -116,10 +109,6 @@ color: black;
 	visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.3s linear;
-}
-a:hover + .dropdown {
-	visibility: visible;
-  opacity: 1;
 }
 
 .portfolio-body h2 {
@@ -193,12 +182,7 @@ a:hover + .dropdown {
 	color: black;
 	font-size: 20px;
 }
-.row.read-more:hover {
-	background: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
+
 .read-more h4 {
 	color:black;
 	font-weight: bold;
@@ -272,13 +256,7 @@ img {
 p a {
 	padding: .2rem .2rem;
 }
-p a:hover {
-	background: #4A90E2;
-	color: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
+
 .label-content{
 	margin: .5rem;
 }
@@ -312,21 +290,6 @@ p a:hover {
 .pubs-label{
 	color: #4180ff;
 }
-.portfolio:hover .portfolio-label {
-	color: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
-
-.portfolio:hover img {
-	border: 5px solid #4A90E2;
-	opacity: .5;
-	border-radius: 100%;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
 
 .social a .fa {
 	width: 24px;
@@ -339,13 +302,7 @@ p a:hover {
 	margin: 0 .2rem;
 	text-align: center;
 }
-.social .fa:hover {
-	background: #4A90E2;
-	cursor: pointer;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
+
 .fa.mobile {
 	border-radius: 50%;
 	color: #222;
@@ -360,13 +317,7 @@ p a:hover {
 	color: #f7f7f7;
 	background: #222;
 }
-.fa.mobile:hover {
-	background: #4A90E2;
-	cursor: pointer;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
+
 .other-mobile-social {
 	margin-top: -2rem;
 	margin-bottom: 3rem;
@@ -378,15 +329,7 @@ p a:hover {
 	padding-right: 3rem;
 	margin-top: 2rem;
 }
-.button:hover {
-	background: #266DBF;
-	border-color: #266DBF;
-}
-.hollow.button:hover {
-	background: #222;
-	border-color: #222;
-	color: #f7f7f7;
-}
+
 /*-- MEDIA QUERIES --*/
 @media (max-width:1024px) {
 	.portfolio-img {
@@ -423,7 +366,7 @@ p a:hover {
 	}
 	.portfolio-body {
 	margin: 1rem 2rem 2rem 0;
-}
+	}
 }
 @media (min-width: 769px) {
 .presentations-page .portfolio-body .thumbnail:hover {
@@ -431,30 +374,92 @@ p a:hover {
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
-}
+	}
 .presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
  {
 	display: block;
-}
+	}
 .pubs-page .portfolio-body .thumbnail:hover {
 	opacity: .3;
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
-}
+	}
 .pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
  {
 	display: block;
-}
+	}
 .index-page .thumbnail:hover {
 	opacity: .5;
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
 	color: white;
-}
+	}
 .thumbnail-wrapper:hover + .detail p {
-	 visibility: visible;
-  opacity: 1;
-}
+	visibility: visible;
+  	opacity: 1;
+	}
+.my-top-menu li a:hover {
+	background: #4A90E2;
+	color: #f7f7f7;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+	a:hover + .dropdown {
+	visibility: visible;
+  	opacity: 1;
+	}
+.row.read-more:hover {
+	background: #f7f7f7;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+p a:hover {
+	background: #4A90E2;
+	color: #f7f7f7;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.portfolio:hover .portfolio-label {
+	color: #f7f7f7;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+
+.portfolio:hover img {
+	border: 5px solid #4A90E2;
+	opacity: .5;
+	border-radius: 100%;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.social .fa:hover {
+	background: #4A90E2;
+	cursor: pointer;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.fa.mobile:hover {
+	background: #4A90E2;
+	cursor: pointer;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.button:hover {
+	background: #266DBF;
+	border-color: #266DBF;
+	}
+.hollow.button:hover {
+	background: #222;
+	border-color: #222;
+	color: #f7f7f7;
+	}
 }
