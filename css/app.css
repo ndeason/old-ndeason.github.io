@@ -13,8 +13,22 @@ hr {
 	margin-bottom: 2rem;
 }
 .fa-lg{
-border-radius: 10px;
-background: black;
+	border-radius: 10px;
+	background: black;
+}
+.social .fa:hover {
+	background: #4A90E2;
+	cursor: pointer;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+}
+.fa.mobile:hover {
+	background: #4A90E2;
+	cursor: pointer;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
 }
 .relative {
 	position: relative;
@@ -435,20 +449,6 @@ p a:hover {
 	border: 5px solid #4A90E2;
 	opacity: .5;
 	border-radius: 100%;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-	}
-.social .fa:hover {
-	background: #4A90E2;
-	cursor: pointer;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-	}
-.fa.mobile:hover {
-	background: #4A90E2;
-	cursor: pointer;
 	-webkit-transition: ease .3s;
 	-moz-transition: ease .3s;
 	transition: ease .3s;
