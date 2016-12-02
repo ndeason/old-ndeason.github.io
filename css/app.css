@@ -199,6 +199,15 @@ color: black;
 .card img{
 	padding-bottom: 1rem;
 }
+
+.flip p{
+	padding-left: 1rem;
+}.flip li{
+	padding-left: 1rem;
+}
+.flip h5{
+	padding-left: 1rem;
+}
 .read-more h4 {
 	color:black;
 	font-weight: bold;
