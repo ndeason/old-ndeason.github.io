@@ -196,7 +196,9 @@ color: black;
 	color: black;
 	font-size: 20px;
 }
-
+.card img{
+	padding-bottom: 1rem;
+}
 .read-more h4 {
 	color:black;
 	font-weight: bold;
