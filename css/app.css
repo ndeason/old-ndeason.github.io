@@ -204,9 +204,13 @@ color: black;
 	padding-bottom: 1rem;
 }
 
+.blurb p{
+	padding-left: 1rem;
+}
 .flip p{
 	padding-left: 1rem;
-}.flip li{
+}
+.flip li{
 	padding-left: 1rem;
 }
 .flip h5{
@@ -386,10 +390,16 @@ p a {
 	#second {
 		height: 100vh;
 		padding-top: 2rem;
+		min-height: 500px;
 	}
 	#first {
 		height: 100vh;
 		padding-top: 1rem;
+		min-height: 500px;
+
+	}
+	#first .row {
+		margin-top: 9rem;
 	}
 
 }
