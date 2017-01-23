@@ -74,6 +74,7 @@ button.menu-icon:after {
 }
 
 /* --- SECTIONS --- */
+
 #first {
 	margin-bottom: 2rem;
 }
@@ -95,7 +96,6 @@ button.menu-icon:after {
 
 #second {
 	background: url(../img/escheresque_ste.png);
-	/* --- image from subtlepatters.com --- */
 	padding: 4rem 2rem;
 }
 #second h3 {
@@ -164,6 +164,26 @@ color: black;
 	margin-left: .3rem;
 	margin-right: .2rem;
 }
+
+/*  --- PORTFOLIO PAGES --- */
+
+.writing-label{
+	color: #8ea950;
+}
+.prez-label{
+	color: #ff292e;
+}
+.pubs-label{
+	color: #4180ff;
+}
+.design-label{
+	color: #9437ff;
+}
+.vid-label{
+	color: #ff9300;
+}
+
+/*  --- WRITING PAGE --- */
 .card {
 	/*box-shadow: 2px 2px 1px gray;*/
 	padding: .5rem;
@@ -226,6 +246,47 @@ color: black;
 	font-size: 25px;
 	margin-left: .3rem; 
 }
+/*  --- VIDEO PAGE --- */
+.yt {
+	background: white;
+	text-align: center;
+	padding: 40px 10px 10px 10px;
+	height: 220px;
+	box-shadow: 1px 1px 3px 1px lightgray;
+}
+.yt h3{
+	font-weight: bold;
+}
+.ytpic {
+	height: 100px;	
+	border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: -50px;
+    margin-top: 1rem;
+    text-align: center;
+}
+.ytlink {
+	background: #e62117;
+	color: white;
+	font-weight: bold;
+	box-shadow: 1px 1px 3px 1px lightgray;
+	text-align: center;
+}
+.ytlink a{
+	color: white;
+	}
+.ytlink a:hover{
+	text-decoration: underline;
+	}
+.vid-page h5{
+	font-weight: bolder;
+	margin-top: 1rem;
+}
+.videodescription{
+	max-width: 691px;
+	margin-left: 1rem;
+
+}
 
 /* --- IMAGES --- */
 img {
@@ -286,6 +347,7 @@ img {
 	margin: 0 .2rem .2rem 0;
 }
 
+
 /* --- LINKS --- */
 p a {
 	padding: .2rem .2rem;
@@ -314,18 +376,6 @@ p a {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);*/
-}
-.writing-label{
-	color: #8ea950;
-}
-.prez-label{
-	color: #ff292e;
-}
-.pubs-label{
-	color: #4180ff;
-}
-.design-label{
-	color: #6b2bb0;
 }
 
 .social a .fa {
@@ -390,16 +440,16 @@ p a {
 	#second {
 		height: 100vh;
 		padding-top: 2rem;
-		min-height: 500px;
+		min-height: 520px;
 	}
 	#first {
 		height: 100vh;
 		padding-top: 1rem;
-		min-height: 500px;
+		min-height: 600px;
 
 	}
 	#first .row {
-		margin-top: 9rem;
+		margin-top: 0rem;
 	}
 
 }
@@ -409,6 +459,17 @@ p a {
 	}
 	.portfolio-body {
 	margin: 1rem 2rem 2rem 0;
+	}
+}
+@media (min-width: 640px) and (max-width: 990px) {
+	.yt {
+	height: 350px;
+	}
+	.yt h3{
+	font-size: 20px;
+	}
+	.ytlink {
+	height: 50px;
 	}
 }
 @media (min-width: 769px) {
