@@ -74,7 +74,64 @@ button.menu-icon:after {
 }
 
 /* --- SECTIONS --- */
+.home {
+	color: white;
+	text-align: center;
+	margin-top: 8rem;
+}
+.home h2{
+	color: #badd69;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	font-size: 80px;  
+}
+.home p {
+	color: white;
+	letter-spacing: 0.225em;
+	font-size: 30px;
+}
+#banner{
+	background-position: center center;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	height: 100vh;
+	min-height: 420px;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+}
 #first {
 	margin-bottom: 2rem;
 }
@@ -415,6 +472,7 @@ p a {
 	padding-left: 3rem;
 	padding-right: 3rem;
 	margin-top: 2rem;
+	border-radius: 100px;
 }
 
 /*-- MEDIA QUERIES --*/
@@ -445,7 +503,7 @@ p a {
 	#first {
 		height: 100vh;
 		padding-top: 1rem;
-		min-height: 600px;
+		min-height: 700px;
 
 	}
 	#first .row {
