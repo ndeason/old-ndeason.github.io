@@ -365,10 +365,23 @@ img {
 .presentations-page .thumbnail{
 	margin: 1rem;
 }
+.design-page .thumbnail{
+	margin: 1rem;
+}
 .writing-page .thumbnail {
 	background: white
 }
+
 .presentations-page .thumbnail-overlay {
+	padding: .5em;
+	display: none;
+	margin: 1rem 15px 1rem 0;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,.7);
+}
+.design-page .thumbnail-overlay {
 	padding: .5em;
 	display: none;
 	margin: 1rem 15px 1rem 0;
@@ -539,6 +552,16 @@ p a {
 	transition: ease .3s;
 	}
 .presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .presentations-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
+ {
+	display: block;
+	}
+.design-page .portfolio-body .thumbnail:hover {
+	opacity: .3;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.design-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .design-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
  {
 	display: block;
 	}
