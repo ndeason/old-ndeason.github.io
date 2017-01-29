@@ -80,19 +80,19 @@ button.menu-icon:after {
 	margin-top: 12rem;
 }
 .home h2{
-	color: #badd69;
+	color: white;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	font-size: 80px;  
 }
 .home p {
-	color: white;
+	color: #badd69;
 	letter-spacing: 0.225em;
 	font-size: 30px;
 }
 #banner{
-	background-position: center center;
-	background-image: url(../img/banner.png);
+	background-position: center bottom;
+	background-image: url(../img/banner1.jpg);
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
