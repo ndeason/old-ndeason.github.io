@@ -93,6 +93,7 @@ button.menu-icon:after {
 #banner{
 	background-position: center bottom;
 	background-image: url(../img/banner1.jpg);
+	/*Photograph by Bernie O'Brien: https://bernieo.smugmug.com/*/
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
