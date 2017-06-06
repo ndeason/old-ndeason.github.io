@@ -76,8 +76,9 @@ button.menu-icon:after {
 /* --- SECTIONS --- */
 .home {
 	color: white;
-	text-align: center;
+	text-align: right;
 	margin-top: 12rem;
+	margin-right: 4rem;
 }
 .home h2{
 	color: white;
@@ -86,14 +87,32 @@ button.menu-icon:after {
 	font-size: 80px;  
 }
 .home p {
-	color: #badd69;
+	color: #f4f6a3;
 	letter-spacing: 0.225em;
 	font-size: 30px;
 }
+.home-button {
+	background:rgba(0, 0, 0, 0.58);
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-top: .5rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-radius: 100px;
+	color: white;
+}
+.home-button:hover{
+		background:rgba(0, 0, 0, 0.4);
+		border: solid 2px black;
+		transition: all .25s ease-out;
+		color: white;
+}
+.home-button:focus{
+		color: white;
+}
 #banner{
 	background-position: center bottom;
-	background-image: url(../img/banner1.jpg);
-	/*Photograph by Bernie O'Brien: https://bernieo.smugmug.com/*/
+	background-image: url(../img/banner2.png);
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
@@ -229,11 +248,31 @@ color: black;
 .writing-label{
 	color: #8ea950;
 }
+.writing-page h6 {
+	font-weight: 800;
+}
+.writing-page h6 a:hover{
+text-decoration: underline;
+}
 .prez-label{
 	color: #ff292e;
 }
 .pubs-label{
 	color: #4180ff;
+}
+.pub-title:hover{
+text-decoration: underline;
+-moz-text-decoration-color: black; /* Code for Firefox */
+text-decoration-color: black;
+}
+.pubs-page h6 {
+	font-weight: 800;
+}
+.pubs-list{
+	margin-left: 2rem;
+}
+.writing-page .pubs-list img{
+	border: 1px solid darkgray;
 }
 .design-label{
 	color: #9437ff;
@@ -241,19 +280,31 @@ color: black;
 .vid-label{
 	color: #ff9300;
 }
+.music-label {
+	color: #1d6342;
+}
+.photo-label {
+	color: #000080
+}
+.list-item{
+	margin-bottom: 30px;
+	padding-top: 30px;
+	border-top: 1px solid #CCC;
+}
 
 /*  --- WRITING PAGE --- */
 .card {
 	/*box-shadow: 2px 2px 1px gray;*/
-	padding: .5rem;
-	margin-bottom: 2rem;
+	padding-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+    margin-left: 1rem;
+    margin-right: 1rem;
 	background: white;
-	border: solid 1px black;
 }
 
 .card-title h4 {
-	color: #8ea950;
-	text-align: center;
+	color: black;
+	text-align: left;
 	padding: 0.5rem 1rem;
 	font-weight: bolder;
 	margin: 0rem 1rem 1rem 1rem;
@@ -310,7 +361,7 @@ color: black;
 	background: white;
 	text-align: center;
 	padding: 40px 10px 10px 10px;
-	height: 220px;
+	height: 580px;
 	box-shadow: 1px 1px 3px 1px lightgray;
 }
 .yt h3{
@@ -330,6 +381,7 @@ color: black;
 	font-weight: bold;
 	box-shadow: 1px 1px 3px 1px lightgray;
 	text-align: center;
+	margin-bottom: 2rem;
 }
 .ytlink a{
 	color: white;
@@ -346,6 +398,19 @@ color: black;
 	margin-left: 1rem;
 
 }
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 /* --- IMAGES --- */
 img {
@@ -360,17 +425,12 @@ img {
 .about-img {
 	margin-bottom: 1rem;
 }
-.pubs-page .thumbnail {
-	margin: 1rem;
-}
 .presentations-page .thumbnail{
 	margin: 1rem;
 }
 .design-page .thumbnail{
 	margin: 1rem;
-}
-.writing-page .thumbnail {
-	background: white
+	border: 1px solid darkgray;
 }
 
 .presentations-page .thumbnail-overlay {
@@ -391,23 +451,9 @@ img {
 	bottom: 0;
 	background: rgba(0,0,0,.7);
 }
-
-.pubs-page .thumbnail-overlay {
-	padding: .5em;
-	display: none;
-	margin: 1rem 15px 1rem 0;
-	color: #fff;
-	position: absolute;
-	bottom: 0;
-	background: rgba(0,0,0,.7);
+.design-page .thumbnail {
+	width: 100%;
 }
-/*.portfolio-body .thumbnail:hover {
-	opacity: .3;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}*/
-
 .project img {
 	margin: 1rem 0;
 }
@@ -418,8 +464,9 @@ img {
 	max-width: 200px;
 	margin: 0 .2rem .2rem 0;
 }
-
-
+.featvid {
+	padding: 0 .9375rem;
+}
 /* --- LINKS --- */
 p a {
 	padding: .2rem .2rem;
@@ -516,7 +563,7 @@ p a {
 		min-height: 520px;
 	}
 	#first {
-		height: 100vh;
+		height: 160vh;
 		padding-top: 1rem;
 		min-height: 700px;
 
@@ -536,7 +583,7 @@ p a {
 }
 @media (min-width: 640px) and (max-width: 990px) {
 	.yt {
-	height: 350px;
+	height: 460px;
 	}
 	.yt h3{
 	font-size: 20px;
@@ -597,19 +644,6 @@ p a {
 	a:hover + .dropdown {
 	visibility: visible;
   	opacity: 1;
-	}
-.row.read-more:hover {
-	background: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-	}
-p a:hover {
-	background: #4A90E2;
-	color: #f7f7f7;
-	-webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
 	}
 .portfolio:hover .portfolio-label {
 	color: #f7f7f7;
