@@ -592,6 +592,11 @@ p a {
 	height: 50px;
 	}
 }
+@media (max-width: 640px)  {
+	.yt {
+	height: 500px;
+	}
+}
 @media (min-width: 769px) {
 .presentations-page .portfolio-body .thumbnail:hover {
 	opacity: .3;
