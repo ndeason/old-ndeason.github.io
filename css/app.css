@@ -286,14 +286,14 @@ text-decoration-color: black;
 .photo-label {
 	color: #000080
 }
-.list-item{
+.list-item {
 	margin-bottom: 30px;
 	padding-top: 30px;
 	border-top: 1px solid #CCC;
 }
 
 .blogbanner {
-		background: url(../blog/pic.jpg) no-repeat center center fixed; 
+	background: url(../blog/pic.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
