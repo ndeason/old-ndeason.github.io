@@ -291,7 +291,7 @@ text-decoration-color: black;
 	padding-top: 30px;
 	border-top: 1px solid #CCC;
 }
-
+/*  --- BLOG PAGES --- */
 .blogbanner {
 	background: url(../blog/apic.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -694,6 +694,16 @@ p a {
 	transition: ease .3s;
 	}
 .design-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .design-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
+ {
+	display: block;
+	}
+.pubs-page .portfolio-body .thumbnail:hover {
+	opacity: .3;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+	}
+.pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay, .pubs-page .portfolio-body .thumbnail:hover + .thumbnail-overlay:hover
  {
 	display: block;
 	}
