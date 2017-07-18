@@ -293,6 +293,7 @@ text-decoration-color: black;
 }
 /*  --- BLOG PAGES --- */
 
+<<<<<<< HEAD
 .aboutpic {
 margin-top: 2em;
 }
@@ -460,6 +461,8 @@ span.blog-title {
 	text-transform: lowercase;
 }
 
+=======
+>>>>>>> parent of f0074f3... adds prototype blog page
 /*  --- WRITING PAGE --- */
 .card {
 	/*box-shadow: 2px 2px 1px gray;*/
@@ -764,9 +767,12 @@ p a {
 	.yt {
 	height: 500px;
 	}
+<<<<<<< HEAD
 	.blogthumb {
 	line-height: 250px;
 }
+=======
+>>>>>>> parent of f0074f3... adds prototype blog page
 }
 @media (min-width: 769px) {
 .presentations-page .portfolio-body .thumbnail:hover {
