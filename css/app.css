@@ -743,6 +743,9 @@ p a {
 	.ytlink {
 	height: 50px;
 	}
+	.blogthumb {
+	line-height: 350px;
+}
 }
 @media (max-width: 640px)  {
 	.yt {
