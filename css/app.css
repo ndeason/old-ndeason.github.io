@@ -432,7 +432,7 @@ text-decoration-color: black;
 	color: white;
 }
 .blog1 {
-	background: url(../blog/apic1.jpg);
+	background: url(../blog/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -485,6 +485,14 @@ span.blog-title {
   background-size: cover;
   padding: 2rem 0rem;
 }
+.blogbg1 {
+	background: url(../blog/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2rem 0rem;
+}
 .blogbody {
 	background: rgb(255, 255, 255); 
     background: rgba(255, 255, 255, 0.8);
@@ -498,9 +506,9 @@ span.blog-title {
 	margin-left: auto;
 	font-family: 'Raleway', sans-serif;
 }
-.blogbody p.firstp::first-letter {
+.bb1 p.firstp::first-letter {
   color: #ebf7ed;
-  background-color: #a9770e;
+  background-color: #558d72;
   font-size: 4em;
   font-weight: bold;
   float: left;
