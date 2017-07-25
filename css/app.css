@@ -431,17 +431,22 @@ text-decoration-color: black;
 .blog-page .my-top-menu li a {
 	color: white;
 }
-.blog1 {
+.blank {
+	background: url(../blog/pattern.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.blogthumb1 {
 	background: url(../blog/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 }
-.blog2 {
-	background: url(../blog/apic2.jpg);
+.blogthumb2 {
+	background: url(../blog/bg2.jpg);
 	background-size: cover;
 	background-position: center;
 }
-.blog3 {
+.blogthumb3 {
 	background: url(../blog/apic3.jpg);
 	background-size: cover;
 	background-position: center;
@@ -493,9 +498,17 @@ span.blog-title {
   background-size: cover;
   padding: 2rem 0rem;
 }
+.blogbg2 {
+	background: url(../blog/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2rem 0rem;
+}
 .blogbody {
 	background: rgb(255, 255, 255); 
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.93);
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 1em;
@@ -504,6 +517,12 @@ span.blog-title {
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+	font-family: 'Raleway', sans-serif;
+}
+.bb2 a {
+	text-transform: capitalize;
+	color: #4A90E2;
+	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
 }
 .bb1 p.firstp::first-letter {
@@ -515,6 +534,18 @@ span.blog-title {
   margin-right: .2em;
   padding: 0em .5em;
   line-height: 1.5em;
+  font-family: times;
+  border: 0px solid;
+  border-radius: 10%;
+}
+.bb2 p.firstp::first-letter {
+  color: #2518e8;
+  font-size: 6em;
+  font-weight: bold;
+  float: left;
+  margin-right: .15em;
+  padding: 0em 0em;
+  line-height: 1em;
   font-family: times;
   border: 0px solid;
   border-radius: 10%;
@@ -540,6 +571,13 @@ span.blog-title {
     -webkit-transition: ease .2s;
 	-moz-transition: ease .2s;
 	transition: ease .2s;
+}
+.blogbody h5 {
+	font-family: 'Raleway', sans-serif;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
 }
 .blogpic {
 	object-fit: cover;
