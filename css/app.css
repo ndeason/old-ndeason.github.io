@@ -808,7 +808,10 @@ p a {
 	width: 90%
 	}
 	.head, .subhead {
-		display: none;
+	display: none;
+	}
+	.blog-page {
+		background-color: white;
 	}
 }
 @media (min-width: 769px) {
