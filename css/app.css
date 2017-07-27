@@ -811,7 +811,7 @@ p a {
 	display: none;
 	}
 	.blog-page body {
-		background-color: red;
+		background-color: white;
 	}
 }
 @media (min-width: 769px) {
