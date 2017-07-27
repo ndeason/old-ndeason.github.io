@@ -797,6 +797,10 @@ p a {
 	.yt {
 	height: 500px;
 	}
+	.blogbg1, .blogbg2, .blogbg3, .blogbg4, .blog5 {
+	background-image: none;
+	padding: 0;
+	}
 	.blogbody h5 {
 	width: 90%
 	}
