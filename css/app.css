@@ -797,6 +797,12 @@ p a {
 	.yt {
 	height: 500px;
 	}
+	.blogbody h5 {
+	width: 90%
+	}
+	.blogbody p {
+	width: 90%
+	}
 }
 @media (min-width: 769px) {
 .presentations-page .portfolio-body .thumbnail:hover {
