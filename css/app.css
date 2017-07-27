@@ -457,13 +457,6 @@ text-decoration-color: black;
 	max-height: 75vh;
 	line-height: 450px;
 }
-.blogthumb:hover {
--webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
-    filter: brightness(60%);
-    -webkit-transition: ease .3s;
-	-moz-transition: ease .3s;
-	transition: ease .3s;
-}
 .blogthumb h1{
 	color: white;
 	font-family: 'Amatic SC', cursive;
@@ -778,6 +771,13 @@ p a {
 	.portfolio-body {
 	margin: 1rem 2rem 2rem 0;
 	}
+	.blogthumb:hover {
+-webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
+    filter: brightness(60%);
+    -webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	transition: ease .3s;
+}
 }
 @media (min-width: 640px) and (max-width: 990px) {
 	.yt {
@@ -806,6 +806,9 @@ p a {
 	}
 	.blogbody p {
 	width: 90%
+	}
+	.head, .subhead {
+		display: none;
 	}
 }
 @media (min-width: 769px) {
