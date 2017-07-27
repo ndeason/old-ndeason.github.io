@@ -810,7 +810,7 @@ p a {
 	.head, .subhead {
 	display: none;
 	}
-	.blog-page .body {
+	.blog-page body {
 		background-color: red;
 	}
 }
