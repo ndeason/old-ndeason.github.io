@@ -499,8 +499,7 @@ span.blog-title {
   padding: 2rem 0rem;
 }
 .blogbg2 {
-	background-attachment: fixed;
-	background: url(../blog/apic.jpg) no-repeat center center fixed; 
+	background: url(../blog/bg2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
