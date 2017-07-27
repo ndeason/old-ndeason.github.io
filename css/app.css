@@ -810,8 +810,8 @@ p a {
 	.head, .subhead {
 	display: none;
 	}
-	.blog-page {
-		background-color: white;
+	.blog-page .body {
+		background-color: red;
 	}
 }
 @media (min-width: 769px) {
