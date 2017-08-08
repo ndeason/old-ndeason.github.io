@@ -451,6 +451,11 @@ text-decoration-color: black;
 	background-size: cover;
 	background-position: center;
 }
+.blogthumb4 {
+	background: url(../blog/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+}
 .blogthumb {
 	text-align: center;
 	height: 50vw;
@@ -507,6 +512,14 @@ span.blog-title {
   background-size: cover;
   padding: 2rem 0rem;
 }
+.blogbg4 {
+	background: url(../blog/bg4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2rem 0rem;
+}
 .blogbody {
 	background: rgb(255, 255, 255); 
     background: rgba(255, 255, 255, 0.9);
@@ -520,7 +533,7 @@ span.blog-title {
 	margin-left: auto;
 	font-family: 'Raleway', sans-serif;
 }
-.bb2 a {
+.bb2 a, .bb4 a{
 	text-transform: capitalize;
 	color: #4A90E2;
 	font-weight: bold;
@@ -560,6 +573,18 @@ span.blog-title {
   margin-right: .2em;
   padding: 0em .4em;
   line-height: 1.5em;
+  font-family: times;
+  border: 0px solid;
+  border-radius: 10%;
+}
+.bb4 p.firstp::first-letter {
+  color: #bb7494;
+  font-size: 6em;
+  font-weight: bold;
+  float: left;
+  margin-right: .15em;
+  padding: 0em 0em;
+  line-height: .9em;
   font-family: times;
   border: 0px solid;
   border-radius: 10%;
