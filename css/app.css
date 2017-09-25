@@ -111,8 +111,8 @@ button.menu-icon:after {
 		color: white;
 }
 #banner{
-	background-position: center bottom;
-	background-image: url(../img/banner2.png);
+	background-position: center center;
+	background-image: url(../img/banner3.jpg);
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
@@ -476,6 +476,11 @@ text-decoration-color: black;
 	background-size: cover;
 	background-position: center;
 }
+.blogthumb9 {
+	background: url(../blog/bg9.jpg);
+	background-size: cover;
+	background-position: center;
+}
 .blogthumb {
 	text-align: center;
 	height: 50vw;
@@ -566,6 +571,14 @@ span.blog-title {
 }
 .blogbg8 {
 	background: url(../blog/bg8.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2rem 0rem;
+}
+.blogbg9 {
+	background: url(../blog/bg9.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -890,7 +903,7 @@ p a {
 		min-height: 520px;
 	}
 	#first {
-		height: 160vh;
+		height: 100vh;
 		padding-top: 1rem;
 		min-height: 700px;
 
