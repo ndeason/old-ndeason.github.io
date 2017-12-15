@@ -205,7 +205,10 @@ color: black;
   opacity: 0;
   transition: visibility 0s, opacity 0.3s linear;
 }
-
+.design-section{
+	width: 95%;
+	margin: auto;
+}
 .portfolio-body h2 {
 	font-weight: 700;
 	margin: 1rem 0;
@@ -213,7 +216,6 @@ color: black;
 }
 .portfolio-body h3 {
 	padding-top: 1rem;
-	padding-left: 0.5rem;
 }
 .overlay-label {
 	background: #4A90E2;
@@ -235,14 +237,6 @@ color: black;
 .project .button {
 	margin: .5rem 0;
 }
-.portfolio-body {
-	margin-right: 1rem;
-}
-.portfolio-body.writing {
-	margin-left: .3rem;
-	margin-right: .2rem;
-}
-
 /*  --- PORTFOLIO PAGES --- */
 
 .writing-label{
@@ -269,7 +263,8 @@ text-decoration-color: black;
 	font-weight: 800;
 }
 .pubs-list{
-	margin-left: 2rem;
+	width: 90%;
+	margin: auto;
 }
 .writing-page .pubs-list img{
 	border: 1px solid darkgray;
@@ -285,6 +280,14 @@ text-decoration-color: black;
 }
 .photo-label {
 	color: #000080
+}
+.photo-slider-pic{
+	display: block; 
+	margin: auto;
+	max-height: 500px;
+}
+.photo-slider{
+	max-height: 500px;
 }
 .list-item{
 	margin-bottom: 30px;
@@ -395,7 +398,7 @@ text-decoration-color: black;
 }
 .videodescription{
 	max-width: 691px;
-	margin-left: 1rem;
+	margin: auto;
 
 }
 .videoWrapper {
@@ -766,7 +769,7 @@ img {
 	margin: 1rem;
 }
 .design-page .thumbnail{
-	margin: 1rem;
+	margin: 1rem 0;
 	border: 1px solid darkgray;
 }
 
@@ -916,9 +919,6 @@ p a {
 @media (min-width:640px) {
 	.medium-up-fixed {
 		position: fixed;
-	}
-	.portfolio-body {
-	margin: 1rem 2rem 2rem 0;
 	}
 	.blogthumb:hover {
 -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
