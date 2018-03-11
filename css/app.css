@@ -76,18 +76,18 @@ button.menu-icon:after {
 /* --- SECTIONS --- */
 .home {
 	color: white;
-	text-align: right;
-	margin-top: 12rem;
-	margin-right: 4rem;
+	text-align: left;
+	margin-top: 10rem;
+	margin-left: 4rem;
 }
 .home h2{
-	color: white;
+	color: #4A90E2;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	font-size: 80px;  
 }
 .home p {
-	color: #f4f6a3;
+	color: #543a15;
 	letter-spacing: 0.225em;
 	font-size: 30px;
 }
@@ -111,8 +111,8 @@ button.menu-icon:after {
 		color: white;
 }
 #banner{
-	background-position: center center;
-	background-image: url(../img/banner.jpg);
+	background-position: top center;
+	background-image: url(../img/banner2.jpg);
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
@@ -173,7 +173,7 @@ button.menu-icon:after {
 }
 
 #second {
-	background: url(../img/escheresque_ste.png);
+	background: url(../img/mypattern.png);
 	padding: 4rem 2rem;
 }
 #second h3 {
