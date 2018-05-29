@@ -268,6 +268,7 @@ text-decoration-color: black;
 }
 .writing-page .pubs-list img{
 	border: 1px solid darkgray;
+	width: 210px;
 }
 .design-label{
 	color: #9437ff;
@@ -751,6 +752,85 @@ margin-top: 2em;
 .instapic {
 	border: 2px solid white;
     border-radius: 50%;
+}
+/*  --- Poem PAGE --- */
+.poem-page body {
+	background: #222;
+}
+.poem-page .my-top-menu, .poem-page .title-bar {
+	background: #222;
+}
+.poem-page .my-top-menu li {
+	color: #f7f7f7;
+}
+.poem-page p {
+	color: #f7f7f7;
+	font-family: Courier, monospace;
+	font-size: 14px;
+}
+.poem-page h1 {
+	color: #e2e500;
+	font-family: "VT323", monospace;
+}
+.poem-page img {
+	width: 10%;
+	display: inline;
+	margin: 3rem 0 0 0;
+}
+.poem-page .my-top-menu li a {
+	color: #e2e500;
+}
+.poem-page .my-top-menu li a:hover {
+	background: #e2e500;
+	color: black;
+	}
+.poem-page .social .fa:hover {
+	background: #e2e500;
+}
+/*  --- Spongebob PAGE --- */
+
+.spongebob-page .main{
+	background: url(../img/seabg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	color: white;
+}
+.spongebob-page .my-top-menu, .spongebob-page .title-bar {
+	background: #222;
+}
+.spongebob-page .my-top-menu li {
+	color: #f7f7f7;
+}
+.spongebob-page .my-top-menu li a {
+	color: #e2e500;
+}
+.spongebob-page .my-top-menu li a:hover {
+	background: #e2e500;
+	color: black;
+	}
+.spongebob-page .social .fa:hover {
+	background: #e2e500;
+}
+.spongebob-page h1 {
+	font-family: 'Sunflower', sans-serif;
+	color: #e2e500;
+	margin-bottom: 1em;
+}
+.spongebob-page p, .spongebob-page em {
+	color: #f7f7f7;
+	font-family: Courier, monospace;
+	font-size: 16px;
+}
+.spongebob-page b, .spongebob-page b em {
+	color: #ff8fe2;
+	font-family: Courier, monospace;
+	font-size: 16px;
+}
+.spongebob-page a {
+	font-family: Courier, monospace;
+	color: #ff8fe2;
+
 }
 /* --- IMAGES --- */
 img {
