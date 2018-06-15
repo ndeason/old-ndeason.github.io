@@ -415,6 +415,18 @@ text-decoration-color: black;
 	width: 100%;
 	height: 100%;
 }
+.accordion-title{
+	font-size: 30px; 
+	color: black; 
+	background-color: #e6e6e6; 
+}
+.accordion-title:hover {
+    background-color: #ccc;
+      -webkit-transition: ease .4s;
+	-moz-transition: ease .4s;
+	transition: ease .4s;
+	color: black;
+}
 /*  --- BLOG PAGE --- */
 /*blog home*/
 .blog-page li{
