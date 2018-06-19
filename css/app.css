@@ -844,6 +844,23 @@ margin-top: 2em;
 	color: #ff8fe2;
 
 }
+/*  --- Self-help  PAGE --- */
+
+.selfhelp-page p, .selfhelp-page b {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+}
+.selfhelp-page b {
+	font-family: 'Lora', serif;
+}
+.selfhelp-page h1 {
+	font-family: 'Lora', serif;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+.selfhelp-page .main, .selfhelp-page .row{
+	background-color: white;
+}
 /* --- IMAGES --- */
 img {
 	display: block;
