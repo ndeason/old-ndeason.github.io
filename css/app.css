@@ -858,8 +858,27 @@ margin-top: 2em;
 	text-transform: capitalize;
 	font-weight: bold;
 }
-.selfhelp-page .main, .selfhelp-page .row{
+.selfhelp-page .main, .selfhelp-page .row {
 	background-color: white;
+}
+/*  --- Unfortunate  PAGE --- */
+
+.unfortunate-page p {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+}
+.unfortunate-page em {
+	font-family: 'Crimson Text', serif;
+	font-size: 23px;
+	font-weight: bold;
+}
+.unfortunate-page body {
+	background-image: url(https://i.pinimg.com/originals/60/00/ca/6000caf22dfb0749d0a40d488eaa0dc7.png);
+}
+.unfortunate-page h1 {
+	font-family: 'Lora', serif;
+	text-transform: capitalize;
+	font-weight: bold;
 }
 /* --- IMAGES --- */
 img {
