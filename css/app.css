@@ -799,6 +799,17 @@ margin-top: 2em;
 .poem-page .social .fa:hover {
 	background: #e2e500;
 }
+/*  --- Fright PAGE --- */
+
+.fright-page img {
+	width: 40%;
+	display: inline;
+	margin: 1rem 0;
+}
+.fight-page a {
+	color: orange;
+}
+
 /*  --- Spongebob PAGE --- */
 
 .spongebob-page .main{
