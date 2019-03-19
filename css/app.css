@@ -76,18 +76,18 @@ button.menu-icon:after {
 /* --- SECTIONS --- */
 .home {
 	color: white;
-	text-align: left;
+	text-align: right;
 	margin-top: 10rem;
 	margin-left: 4rem;
 }
 .home h2{
-	color: #4A90E2;
+	color: #3adb76;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	font-size: 80px;  
 }
 .home p {
-	color: #543a15;
+	color: #eee;
 	letter-spacing: 0.225em;
 	font-size: 30px;
 }
@@ -112,7 +112,7 @@ button.menu-icon:after {
 }
 #banner{
 	background-position: top center;
-	background-image: url(../img/banner2.jpg);
+	background-image: url(../img/home.jpg);
 	background-size: cover;
 	height: 100vh;
 	min-height: 600px;
@@ -173,7 +173,7 @@ button.menu-icon:after {
 }
 
 #second {
-	background: url(../img/mypattern.png);
+	background: #0a0a0a;
 	padding: 4rem 2rem;
 }
 #second h3 {
@@ -185,12 +185,12 @@ button.menu-icon:after {
 	width: 40%;
 }
 .about-text {
-	border-left: 2px solid #badd69;
+	border-left: 0px solid #badd69;
 	color: #f7f7f7;
 }
 .title {
-	background: #badd69;
-	color: #222;
+	background: #222;
+	color: white;
 	padding-left: .9rem;
 	margin-left: -1rem;
 }
